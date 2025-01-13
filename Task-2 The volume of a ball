@@ -1,0 +1,15 @@
+package java_programming;
+import java.util.Scanner;
+public class VolumeOfABall {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double radius;
+        radius= sc.nextDouble();
+        double cubeOfRadius=Math.pow(radius,3);
+        System.out.println((4*3.1416*cubeOfRadius)/3);
+
+    }
+}
+
+
+
