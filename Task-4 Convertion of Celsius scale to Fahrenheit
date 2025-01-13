@@ -1,1 +1,10 @@
-
+package java_programming;
+import java.util.Scanner;
+public class ConversionOfCelsiusScaleToFahrenheit{
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        double celsius;
+        celsius= sc.nextDouble();
+        System.out.println((celsius*9)/5+32);
+    }
+}
