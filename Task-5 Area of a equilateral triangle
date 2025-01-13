@@ -1,0 +1,12 @@
+package java_programming;
+import java.util.Scanner;
+public class AreaOfAEquilateralTriangle {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        double arm;
+        arm=sc.nextDouble();
+        double rootof3=Math.sqrt(3);
+        System.out.println((rootof3/4)*arm*arm);
+
+    }
+}
